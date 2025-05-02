@@ -1,0 +1,47 @@
+.project-task-container {
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .project-task-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-task-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .project-task-content input,
+  .project-task-content textarea,
+  .project-task-content select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .project-task-content button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .project-task-content button:hover {
+    background-color: #0056b3;
+  }
+  

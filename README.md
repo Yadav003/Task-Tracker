@@ -1,55 +1,12 @@
-# 🗂️ MERN Task Manager App
+# React + Vite
 
-A full-stack Task Management web application built using the **MERN** stack (MongoDB, Express, React, Node.js). Users can sign up, create projects, and manage tasks with a clean, responsive interface.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🔥 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- ✅ User registration & login with JWT authentication
-- ✅ Create & manage up to 4 projects per user
-- ✅ Add, view, and update tasks for each project
-- ✅ Responsive design for mobile and desktop
-- ✅ Clean dashboard with task organization
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Tech Stack
-
-**Frontend**
-- React (Vite)
-- Axios
-- CSS
-
-**Backend**
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT & bcrypt
-
----
-
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/task-manager-app.git
-cd task-manager-app
-cd backend
-npm install
-
-2. Create a .env file in /backend with
-
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/task-tracker
-JWT_SECRET=yourSecretKey
-npm run dev
-
-3. Frontend Setup
-cd frontend
-npm install
-npm run dev
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
